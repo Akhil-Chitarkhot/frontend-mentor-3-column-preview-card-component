@@ -1,0 +1,90 @@
+.container {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.card {
+    display: flex;
+    height: 500px;
+    width: 920px;
+}
+
+img {
+    margin-top: 47px;
+    margin-left: 45px;
+}
+
+.heading { 
+    width: 145px;
+    height: 43px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 45px;
+}
+
+.txt {
+    width: 184px;
+    height: 122px;
+    color: hsla(0, 0%, 95%, 75%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 45px;
+}
+
+button {
+    width: 145px;
+    height: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgba(242, 242, 242, 1);
+    border-color: white;
+    margin-left: 45px;
+}
+
+.btn1 {color: #E38826;}
+
+.btn2 {color: #006970;}
+
+.btn3 {color: #004241;}
+
+button:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.5s;
+}
+
+.sedan {
+    flex: 1;
+    background: #E38826;
+}
+
+.suv {
+    flex: 1;
+    background: #006970;
+}
+
+.luxury {
+    flex: 1;
+    background: #004241;
+}
+
+@media(max-width: 600px) {
+    .card {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    button {margin-bottom: 25px;}
+}
